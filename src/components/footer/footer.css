@@ -1,0 +1,14 @@
+ul{
+    margin-top: var(--space);
+}
+
+li:not(:first-of-type){
+    margin-top: var(--space-xs);
+}
+
+.signature{
+    font-size: var(--small-fontsize);
+    color: var(--text-color);
+    margin-top: var(--space);
+    text-align: right;
+}

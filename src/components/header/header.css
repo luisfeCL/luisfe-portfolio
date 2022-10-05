@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    text-decoration: none;
+    font-family: var(--title-font);
+    font-size: var(--logo-fontsize);
+}
+
+.logo:visited{
+    color: var(--text-color);
+}
+
+nav{
+    font-family: var(--text-font);
+    font-size: var(--nav-fontsize);
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav__element:not(:first-of-type){
+    margin-left: 32px;
+}

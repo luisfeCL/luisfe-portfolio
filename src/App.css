@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+:root{
+
+    /* Colores */
+    --bg-color: hsl(198,100%,13%);
+    --text-color: hsl(194,49%,90%);
+
+    /* Estilos de fuente */
+    --title-font: 'Rozha One', serif;
+    --text-font: 'Montserrat', sans-serif;
+
+    /* Tamaños de fuentes */
+    --logo-fontsize: 3.2rem;
+    --nav-fontsize: 1.6rem;
+    --title-fontsize: 6.4rem;
+    --subtitle: 2.4rem;
+    --text-fontsize: 2.4rem;
+    --small-fontsize: 1.6rem;
+
+    /* Espaciados */
+    --space-xxs: 0rem;
+    --space-xs: .8rem;
+    --space-s: 1.6rem;
+    --space: 3.2rem;
+    --space-l: 6.4rem;
+    --space-xl: 8rem;
+    --space-xxl: 16rem;
+    --lateral-padding: 24%;
+    --padding: 8rem 16% 0 16%;
+    --title-padding: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body{
+    width: 100vw;
+    font-size: 62.5%;
+    overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding-bottom: var(--space-xl);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0
+}
+li{
+    list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+    padding: var(--padding);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.element{
+    margin-top: var(--space-xxl);
+}
+
+.title{
+    font-family: var(--title-font);
+    font-size: var(--title-fontsize);
+    margin-bottom: var(--space-xxs);
+    width: 64%;
+}
+
+.subtitle{
+    font-family: var(--text-font);
+    font-size: var(--subtitle);
+    font-weight: 400;
+}
+
+.text{
+    font-family: var(--text-font);
+    font-size: var(--text-fontsize);
+    font-weight: 400;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+.link:visited{
+    color: var(--text-color);
 }

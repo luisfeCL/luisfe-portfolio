@@ -1,0 +1,16 @@
+.presentation__content{
+    display: flex;
+}
+
+.presentation__subtitle{
+    width: 50%;
+}
+
+.presentation__text{
+    width: 50%;
+}
+hr {
+    opacity: .1;
+    margin: var(--space-l);
+    border-color: var(--text-color);
+}

@@ -1,0 +1,42 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: var(--space);
+    margin-right: var(--space);
+}
+
+.icon{
+    width: 160px;
+}
+
+
+.description{
+    padding:  var(--space-m);
+    margin-top: var(--space);
+}
+
+.description__name{
+    color:var(--text-color);
+    font-weight: bold;
+    font-size: var(--text-fontsize);
+}
+
+.description__text{
+    margin: var(--space-s) 0;
+}
+
+.description__nav{
+    display: flex;
+    align-items: center;
+    color:var(--text-color);
+    font-weight: bold;
+    font-size: var(--small-fontsize);
+}
+.description__nav--icon{
+    margin-left: var(--space-xs);
+    width: var(--small-fontsize);
+}
+.description__nav:hover{
+    opacity: .5;
+}

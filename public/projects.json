@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "icon": "/weather-cloudy.png",
+            "title": "Weather app",
+            "description": "Esta es la descripción de este proyecto Weather app",
+            "link": "https://emojibook.wordpressmola.com/"
+        },
+        {
+            "icon": "/timer.png",
+            "title": "Pomodoro Timer",
+            "description": "Esta es la descripción de este proyecto Pomodoro timer",
+            "link": "https://emojibook.wordpressmola.com/"
+        },
+        {
+            "icon": "/format-list-checks.png",
+            "title": "To do list",
+            "description": "Esta es la descripción de este proyecto To do list",
+            "link": "https://emojibook.wordpressmola.com/"
+        },
+        {
+            "icon": "/emoticon-cool-outline.png",
+            "title": "Emojibook",
+            "description": "Esta es la descripción de este proyecto Emojibook",
+            "link": "https://emojibook.wordpressmola.com/"
+        }
+    ]
+}

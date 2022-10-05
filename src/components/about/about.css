@@ -1,0 +1,13 @@
+.about__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo{
+    width: 40%;
+    height: 40%;
+}
+
+.about__text{
+    width: 50%;
+}
